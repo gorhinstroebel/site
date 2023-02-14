@@ -101,22 +101,29 @@ a:hover {
     text-align: left;
 }
 
-.Github-row{
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: center;
-}
-.code-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
 .technician-img{
-    width: 25%;
+    width: 10rem;
+    padding: 2rem;
     float: right;
     margin-left: 30px;
 }
+
+
+.code-img{
+    width: 10rem;
+    padding: 2rem;
+    float: right;
+    margin-left: 30px;
+}
+
+.Github-row{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    align-items: center;
+}
+
+
 
 hr {
     width: 12.5%;
@@ -124,6 +131,11 @@ hr {
     border-width: 7px;
     border-color: grey;
 
+}
+
+.nav-bar{
+    background-color: white;
+    color:#40514E;
 }
 
 .btn {
